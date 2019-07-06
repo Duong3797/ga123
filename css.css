@@ -104,6 +104,7 @@ height: 61px;
     z-index: 1;
     position: absolute;
     right: 0%;
+    top: 289%;
 }
 .section3 .box-content-plane {
     color: #7F8FA4;
@@ -560,6 +561,12 @@ background-color: #ff4d79;
 #Footer{
     display: none
 }
+.wave{
+    display: none;
+}
+.smallwave{
+    display: none;
+}
 
 #Footer-responsive{
     display: block;
@@ -773,6 +780,12 @@ background-color: #ff4d79;
     .chronometer {
         width: 20%;
         margin-left: 40%;
+    }
+    .wave{
+        display: block;
+    }
+    .smallwave{
+        display: block;
     }
 }
 @media (min-width: 1200px){
