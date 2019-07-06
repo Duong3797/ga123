@@ -84,6 +84,27 @@ height: 61px;
 
     padding-bottom: 10px;
 }
+.section3{
+    z-index: 2;
+    position: relative;
+}
+.section4{
+    z-index: 2;
+    position: relative;
+}
+.QTBT{
+    z-index: 2;
+    position: relative;
+}
+.wave{
+    z-index: 1;
+    position: absolute;
+}
+.smallwave{
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+}
 .section3 .box-content-plane {
     color: #7F8FA4;
     font-size: 14px;
